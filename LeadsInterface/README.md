@@ -9,7 +9,7 @@
 
 ## Arquitetura aplicada:
 
-- Design Atômico para organização de componentes de interface:
+- Atomic Design para organização de componentes UX/UI:
 
 atoms/ → Componentes básicos e reutilizáveis
 molecules/ → Combinações de átomos formando componentes mais complexos 
