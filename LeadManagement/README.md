@@ -16,9 +16,3 @@
 - domain/ → Definição das entidades de domínio (Lead).
 - application/ → Divisão entre Commands e Queries (aplicação de CQRS de forma simples e prática).
 - infrastructure/ → Serviços externos, como envio de e-mails simulados.
-
-## Como executar o projeto:
-
-1. Ative o ambiente virtual: bash venv\Scripts\activate
-2. Instale as dependências: pip install -r requirements.txt
-3. Rode o servidor: uvicorn app:app --reload --port 7001
