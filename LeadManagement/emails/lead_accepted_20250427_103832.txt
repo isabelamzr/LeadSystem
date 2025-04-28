@@ -1,0 +1,17 @@
+
+    Para: vendas@test.com
+    Assunto: Novo Lead Aceito - ID: 2005
+    
+    Um novo lead foi aceito no sistema:
+    
+    Job ID: 2005
+    Nome: Anna Taylor
+    Categoria: Plumbers
+    Preço: $630.00
+    Descrição: Bathroom renovation plumbing work
+    
+    Por favor, entre em contato com o cliente o mais breve possível.
+    
+    Atenciosamente,
+    Sistema de Gerenciamento de Leads
+    
