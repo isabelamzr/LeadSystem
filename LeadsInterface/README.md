@@ -9,20 +9,16 @@
 
 ## Arquitetura aplicada:
 
-- Atomic Design para organização de componentes UX/UI:
+- **Atomic Design** para organização de componentes UX/UI:
+  - `atoms/` → Componentes básicos e reutilizáveis  
+  - `molecules/` → Combinações de átomos formando componentes mais complexos  
+  - `organisms/` → Componentes maiores que combinam moléculas  
 
-atoms/ → Componentes básicos e reutilizáveis
-molecules/ → Combinações de átomos formando componentes mais complexos 
-organisms/ → Componentes maiores que combinam moléculas
+- **Arquitetura em Camadas**:
+  - `global/` → Componentes globais da aplicação  
+  - `pages/` → Páginas específicas que consomem componentes e serviços  
+  - `services/` → Funções para comunicação com a API  
+  - `theme/` → Configuração de tema e estilos globais da aplicação  
 
-- Arquitetura em Camadas:
-
-global/ → Componentes globais da aplicação 
-pages/ → Páginas específicas que consomem componentes e serviços 
-services/ → Funções para comunicação com a API 
-theme/ → Configuração de tema e estilos globais da aplicação
-
-## Design:
-
-- Theme System → Sistema de tokens para cores e tipografia
-- Context API para gerenciamento de estado global (tema claro/escuro)
+- **Theme System** → Sistema de tokens para cores e tipografia  
+- **Context API** para gerenciamento de estado global (tema claro/escuro)
